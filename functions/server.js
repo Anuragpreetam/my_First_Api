@@ -14,7 +14,7 @@ router.get("/getRestaurants",(req,res)=>{
     })
 })
 
-router.use('/.my_First_Api/functions/server',router)
+router.use('.netlify/functions/server',router)
 // router.listen(PORT,function(){
 //     console.log(`api listening at http://localhost:${PORT}`)
 // })

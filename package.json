@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/Anurag-ReactDev/my_First_Api#readme",
   "devDependencies": {
-    "express": "^4.18.2",
-    "fs": "^0.0.1-security",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+    
   }
 }

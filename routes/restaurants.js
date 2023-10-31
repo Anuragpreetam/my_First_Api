@@ -1202,7 +1202,7 @@ const restaurantData = [
 ]
 
 router
-.route("/restaurants")
+.route("/")
 .get((req,res)=>{
     res.send(restaurantData)
         })

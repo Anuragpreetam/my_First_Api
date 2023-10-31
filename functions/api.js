@@ -25,5 +25,5 @@ app.listen(port, (err)=>{
 //use curl to test api in terminal
 //curl http:localhost:5050/restaurants/
 
-app.use('/.netlify/functions/api',restaurants);
-module.exports.handler = serverless(app);
+// app.use('/.netlify/functions/api',restaurants);
+// module.exports.handler = serverless(app);

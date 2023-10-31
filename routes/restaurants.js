@@ -20,7 +20,7 @@ const someMiddleware = function(req,res,next){
 router.use(someMiddleware)
 
 router
-.route("/")
+.route("/restaurants")
 .get((req,res)=>{
     fs.readFile("../" + "restaurantsData.json",'utf-8',(err,data)=>{
             if(err){

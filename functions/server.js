@@ -1,21 +1,21 @@
 var express = require('express');//require express framework
 var fs = require('fs') //require filesystem object
 const app = express();
-const router = express.Router();
+const restaurants = require("../routes/restaurants")
 const serverless = require('serverless-http');
 
-const PORT = 5050;
-router.get("/getRestaurants",(req,res)=>{
-        console.log(res.status)
-    fs.readFile(__dirname +'restaurantsData.json', 'utf-8',function(err,data){
-        // var d = await fetch('http://localhost:8080/getRestaurants');
-        res.send(data)
-        
-    })
+const port = process.env.port || 5050;
+
+app.use("/restaurants",restaurants)
+app.use(express.json());
+
+app.listen(port, (err)=>{
+    if(err){
+        console.log(err)
+    }
+    console.log(`Server listening on ${port}`)
 })
 
-router.use('.netlify/functions/server',router)
-// router.listen(PORT,function(){
-//     console.log(`api listening at http://localhost:${PORT}`)
-// })
-module.exports.handler = serverless(app);
+
+//use curl to test api in terminal
+//curl http:localhost:5050/restaurants/

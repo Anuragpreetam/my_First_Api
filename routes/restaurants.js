@@ -19,8 +19,6 @@ const someMiddleware = function(req,res,next){
 
 router.use(someMiddleware)
 const restaurantData = [
-    {
-    "restaurantCards":[
         {
             "info": {
                 "id": "32844",
@@ -1201,8 +1199,6 @@ const restaurantData = [
                 "type": "WEBLINK"
             }
         }
-    ]
-}
 ]
 
 router

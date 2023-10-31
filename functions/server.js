@@ -7,7 +7,7 @@ const serverless = require('serverless-http');
 const PORT = 5050;
 router.get("/getRestaurants",(req,res)=>{
         console.log(res.status)
-    fs.readFile(__dirname+ "/" + "restaurantsData.json", 'utf-8',function(err,data){
+    fs.readFile("restaurantsData.json", 'utf-8',function(err,data){
         // var d = await fetch('http://localhost:8080/getRestaurants');
         res.send(data)
         

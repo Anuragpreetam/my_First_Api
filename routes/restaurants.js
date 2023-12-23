@@ -22,6 +22,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "32844",
+                "promoted": "true",
                 "name": "McDonald's",
                 "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
                 "locality": "LB Nagar",
@@ -116,6 +117,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "24629",
+                "promoted": "false",
                 "name": "Domino's Pizza",
                 "cloudinaryImageId": "snjzno124phpzc1ntqtx",
                 "locality": "L B Nagar",
@@ -195,6 +197,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "148964",
+                "promoted": "true",
                 "name": "Pizza Hut",
                 "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
                 "locality": "L B Nagar",
@@ -267,6 +270,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "17121",
+                "promoted": "true",
                 "name": "KFC",
                 "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
                 "locality": "Kothapet",
@@ -343,6 +347,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "40998",
+                "promoted": "false",
                 "name": "Lucky Restaurant",
                 "cloudinaryImageId": "pph2zo8kj5wm6147vrsb",
                 "locality": "Nagole",
@@ -439,6 +444,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "140117",
+                "promoted": "false",
                 "name": "Imperial Multi-Cusine Restaurant",
                 "cloudinaryImageId": "ib97mlmkhuwwv51syyca",
                 "locality": "Saroor Nagar West",
@@ -515,6 +521,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "104667",
+                "promoted": "false",
                 "name": "Faasos - Wraps & Rolls",
                 "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
                 "locality": "LB Nagar",
@@ -617,6 +624,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "377930",
+                "promoted": "false",
                 "name": "Baskin Robbins - Ice Cream Desserts",
                 "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
                 "locality": "Nacharam",
@@ -695,6 +703,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "109168",
+                "promoted": "false",
                 "name": "Al Rabea Al Arabi Cafeteria",
                 "cloudinaryImageId": "lu7b9y7xps4icwn6xzfj",
                 "locality": "Opposite Lucky Hotel",
@@ -768,6 +777,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "104673",
+                "promoted": "false",
                 "name": "Sweet Truth - Cake and Desserts",
                 "cloudinaryImageId": "4a3b48488e3aa9bda13efd8cfcd95284",
                 "locality": "LB Nagar",
@@ -848,6 +858,7 @@ const restaurantData = [
             "info": {
                 "id": "156171",
                 "name": "The Good Bowl",
+                "promoted": "false",
                 "cloudinaryImageId": "0b3356a88b6fc5966c452c4c9b1b5e4a",
                 "locality": "LB Nagar FC",
                 "areaName": "Nagolu Enclave",
@@ -928,6 +939,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "57903",
+                "promoted": "false",
                 "name": "Capital Multi Cuisine Restaurant",
                 "cloudinaryImageId": "ijy2jxi7lfwsebdtazpi",
                 "locality": "Malakpet",
@@ -1025,6 +1037,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "104672",
+                "promoted": "false",
                 "name": "Firangi Bake",
                 "cloudinaryImageId": "so1byxv95m2xhe4qpga8",
                 "locality": "LB Nagar",
@@ -1126,6 +1139,7 @@ const restaurantData = [
         {
             "info": {
                 "id": "48778",
+                "promoted": "false",
                 "name": "The Thick Shake Factory",
                 "cloudinaryImageId": "se2snqittbnngjfdihx9",
                 "locality": "Dilsukh Nagar",
